@@ -1,0 +1,23 @@
+{
+  "name": "react-query-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild index.tsx --servedir=. --outdir=. --bundle --define:process.env.NODE_ENV=\"'development'\""
+  },
+  "keywords": [],
+  "author": "hendrikniemann",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.13.6"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "esbuild": "^0.11.9",
+    "typescript": "^4.2.4"
+  }
+}
